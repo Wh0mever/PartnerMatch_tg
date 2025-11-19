@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sqlite3 bot.db \"INSERT INTO users (telegram_id, username, full_name, role) VALUES (1914567632, ''ShokhrukNuritdinov'', ''Shokhruk Nuritdinov'', ''owner'');\")",
+      "Bash(sqlite3 bot.db \"SELECT telegram_id, username, full_name, role FROM users WHERE telegram_id = 785125089;\")",
+      "Bash(sqlite3 bot.db \"SELECT telegram_id, username, full_name, role FROM users;\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
